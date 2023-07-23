@@ -87,7 +87,7 @@ return false;
 addres.addEventListener("input",function(){validationUrl()})
 function validationUrl(){
 
-    var regex=/^\w+\.com$/
+    var regex=/^(www.){0,1}[\w]+\.com$/
     console.log("hena")
     if(regex.test(addres.value)==true){
         console.log("if "+addres.value)
