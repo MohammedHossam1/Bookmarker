@@ -1,0 +1,102 @@
+/* .form-control{
+    box-shadow: none;
+} */
+body{
+    /* background-image: url(../img/astronomy-g10d5fa6c8_1280.jpg); */
+background-color: rgb(252, 244, 235);
+}
+:root{
+    --main-font: 'Monda', sans-serif;
+}
+/* .layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+} */
+.nonest{
+    box-shadow: none !important;
+}
+.bluest{
+    box-shadow: 0px 0px 8px 1px rgb(9, 126, 223) !important;
+}
+.redest{
+    box-shadow: 0px 0px 8px 1px rgb(250, 22, 41) !important;
+}
+p{
+    margin: 1px;
+    padding: 1px;
+}
+
+ .mainp{
+    font-size: large;
+    font-weight: bold;
+}
+
+dialog{
+    background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));
+    color:white;
+    transition: all 0.3s ease-in-out;
+    /* overflow: hidden; */
+    /* box-shadow: rgb(0,0,0,0.7) 5px 10px 50px ,rgb(0,0,0,0.7) -5px 0px 250px; */
+    border: none;
+
+} 
+i{
+cursor: pointer;
+}
+#closeIc{
+    transition: all .3s;
+}
+#closeIc:hover{
+    color: rgb(231, 49, 49) !important;
+}
+label{
+    font-size: 20px;
+    font-weight: 400;
+    font-weight: var(--main-font);
+}
+
+
+
+
+  h1 {
+    text-decoration: none;
+    color: #18272F;
+    font-weight: 700;
+    position: relative;
+    transition: all .3s ease-in-out;
+
+  }
+  
+  h1::before {
+    content: '';
+    background-color: hsla(36, 100%, 51%, 0.75);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+  }
+  
+  h1:hover {
+    color: white !important;
+
+  }
+  h1:hover::before {
+    bottom: 0;
+
+    height: 100%;
+  }
+  
+  
+
+.myadd:hover{
+    background-color: hsla(36, 84%, 64%, 0.75);
+
+}
+.myadd{
+    background-color: hsla(36, 100%, 51%, 0.75);
+    transition: all .3s;
+}
